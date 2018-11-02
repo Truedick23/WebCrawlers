@@ -1,0 +1,152 @@
+ID,Title,IMDb,Year,Rating,VotingNumber,Length,Nation,Genres,Tags,PictureUrl
+0,肖申克的救赎 The Shawshank Redemption,0111161,1994,9.6,1182260,142,美国,剧情|犯罪,经典|励志|信念|自由|人性|美国|人生|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg
+1,控方证人 Witness for the Prosecution,0051201,1957,9.6,140774,116,美国,剧情|悬疑|犯罪,悬疑|经典|推理|犯罪|美国|黑白|法律|剧情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1505392928.jpg
+2,这个杀手不太冷 Léon,0110413,1994,9.4,1089471,110,法国,剧情|动作|犯罪,经典|温情|爱情|人性|剧情|动作|犯罪|成长,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p511118051.jpg
+3,霸王别姬,0106332,1993,9.6,867245,171,中国大陆|香港,剧情|爱情|同性,经典|人性|文艺|爱情|人生|同志|剧情|文革,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910813120.jpg
+4,美丽人生 La vita è bella,0118799,1997,9.5,544482,116,意大利,剧情|喜剧|爱情|战争,二战|亲情|意大利|经典|战争|温情|人性|爱情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p510861873.jpg
+5,阿甘正传 Forrest Gump,0109830,1994,9.4,932056,142,美国,剧情|爱情,励志|经典|美国|人生|成长|信念|剧情|人性,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p510876377.jpg
+6,辛德勒的名单 Schindler's List,0108052,1993,9.5,490111,195,美国,剧情|历史|战争,人性|二战|经典|斯皮尔伯格|战争|辛德勒的名单|美国|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p492406163.jpg
+7,十二怒汉 12 Angry Men,0050083,1957,9.4,211133,96,美国,剧情,经典|人性|美国|黑白|剧情|法律|1957|悬疑,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2173577632.jpg
+8,灿烂人生 La meglio gioventù,0346336,2003,9.4,27467,366,意大利,剧情|爱情|家庭,意大利|意大利电影|人生|灿烂人生|成长|文艺|文艺片|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1161132422.jpg
+9,盗梦空间 Inception,1375666,2010,9.3,951825,148,美国|英国,剧情|科幻|悬疑|冒险,科幻|悬疑|美国|心理|剧情|经典|哲学|2010,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p513344864.jpg
+10,教父 The Godfather,0068646,1972,9.2,431780,175,美国,剧情|犯罪,黑帮|经典|美国|犯罪|剧情|黑社会|人性|人生,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2190556185.jpg
+11,乱世佳人 Gone with the Wind,0031381,1939,9.2,329004,238,美国,剧情|爱情|历史|战争,经典|爱情|乱世佳人|美国|飘|战争|名著改编|人生,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1963126880.jpg
+12,城市之光 City Lights,0021749,1931,9.2,52533,87,美国,剧情|喜剧|爱情,卓别林|喜剧|默片|美国|经典|黑白|CharlesChaplin|美国电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2170238803.jpg
+13,地下 Подземље,0114787,1995,9.1,28734,170,法国|南斯拉夫联盟共和国|德国,剧情|战争,南斯拉夫|库斯图里卡|荒诞|黑色|战争|法国|欧洲电影|1995,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1833776334.jpg
+14,洞 Le trou,0054407,1960,9.2,22790,132,法国|意大利,剧情|惊悚|犯罪,法国|越狱|雅克·贝克|黑白|法国电影|剧情|黑色幽默|1960,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2497389079.jpg
+15,海上钢琴师 La leggenda del pianista sull'oceano,0120731,1998,9.2,712383,165,意大利,剧情|音乐,经典|海上钢琴师|音乐|人生|意大利|钢琴|剧情|意大利电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p511146807.jpg
+16,三傻大闹宝莱坞 3 Idiots,1187043,2009,9.2,851642,171,印度,剧情|喜剧|爱情|歌舞,励志|印度|喜剧|人生|搞笑|宝莱坞|经典|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p579729551.jpg
+17,放牛班的春天 Les choristes,0372824,2004,9.2,584283,97,法国|瑞士|德国,剧情|音乐,法国|音乐|成长|教育|经典|温情|剧情|励志,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910824951.jpg
+18,搏击俱乐部 Fight Club,0137523,1999,9.0,466028,139,美国|德国,剧情|动作|悬疑|惊悚,心理|美国|暴力|悬疑|经典|剧情|黑色|犯罪,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910926158.jpg
+19,忠犬八公的故事 Hachi: A Dog's Tale,1028532,2009,9.3,613040,93,美国|英国,剧情,感人|温情|动物|真实事件改编|温暖|美国|人性|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p524964016.jpg
+20,天堂电影院 Nuovo Cinema Paradiso,0095765,1988,9.1,361820,155,意大利|法国,剧情|爱情,意大利|经典|成长|天堂电影院|托纳多雷|剧情|意大利电影|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910901025.jpg
+21,"两杆大烟枪 Lock, Stock and Two Smoking Barrels",0120735,1998,9.1,319933,107,英国,剧情|喜剧|犯罪,黑色幽默|英国|喜剧|犯罪|黑帮|剧情|黑色|经典,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792443418.jpg
+22,鬼子来了,0245929,2000,9.2,292814,139,中国大陆,剧情|历史|战争,姜文|人性|战争|鬼子来了|抗日|中国电影|中国|黑色幽默,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1181775734.jpg
+23,小鞋子 بچههای آسمان,0118849,1997,9.2,174363,89,伊朗,剧情|家庭|儿童,伊朗|纯真|伊朗电影|儿童|童年|小鞋子|经典|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2165511465.jpg
+24,七武士 七人の侍,0047478,1954,9.2,91231,160,日本,剧情|动作|冒险,黑泽明|日本|经典|日本电影|七武士|武士|战争|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p647099823.jpg
+25,摩登时代 Modern Times,0027977,1936,9.2,112379,87,美国,剧情|喜剧|爱情,卓别林|喜剧|经典|默片|美国|黑白|美国电影|CharlesChaplin,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2173707976.jpg
+26,"黄金三镖客 Il buono, il brutto, il cattivo.",0060196,1966,9.1,59245,161,意大利|西班牙|西德,西部|冒险,西部片|西部|经典|克林特·伊斯特伍德|意大利|美国|黄金三镖客|1966,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2101693489.jpg
+27,东京物语 東京物語,0046438,1953,9.2,59922,136,日本,剧情|家庭,小津安二郎|日本|家庭|日本电影|经典|文艺|1953|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910832390.jpg
+28,熊的故事 L'ours,0095800,1988,9.1,19508,94,法国|美国,剧情,法国|动物|自然|熊|法国电影|经典|温情|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2454268056.jpg
+29,生活多美好 It's a Wonderful Life,0038650,1946,9.2,38485,130,美国,剧情|爱情|奇幻,美国|励志|经典|美国电影|喜剧|1946|爱情|JamesStewart,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p771490367.jpg
+30,茶馆,1395030,1982,9.4,22128,118,中国大陆,剧情|历史,老舍|经典|话剧|中国|中国电影|老电影|大陆|谢添,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2262122096.jpg
+31,寻子遇仙记 The Kid,0012349,1921,9.1,16461,68,美国,剧情|喜剧|家庭,卓别林|喜剧|默片|美国|经典|1921|CharlesChaplin|美国电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2332976198.jpg
+32,天堂回信,0334505,1994,9.1,12307,88,中国大陆,剧情|儿童,亲情|童年|中国电影|大陆|中国|经典|天堂回信|眼泪止不住,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1090024531.jpg
+33,切腹,0056058,1962,9.2,12703,133,日本,剧情,日本|小林正树|武士|日本电影|仲代达矢|黑白|1962|切腹,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2151748293.jpg
+34,指环王3：王者无敌 The Lord of the Rings: The Return of the King,0167260,2003,9.1,350560,201,美国|新西兰,剧情|动作|奇幻|冒险,魔幻|史诗|经典|美国|战争|奥斯卡|新西兰|2003,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910825503.jpg
+35,飞越疯人院 One Flew Over the Cuckoo's Nest,0073486,1975,9.0,323792,133,美国,剧情,人性|自由|经典|美国|剧情|1975|心理|人生,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792238287.jpg
+36,触不可及 Intouchables,1675434,2011,9.2,459456,112,法国,剧情|喜剧,温情|法国|感人|喜剧|法式情怀|剧情|搞笑|2011,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1454261925.jpg
+37,窃听风暴 Das Leben der Anderen,0405094,2006,9.1,279376,137,德国,剧情|悬疑,人性|德国|剧情|德国电影|东德|社会主义|窃听|2006,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1808872109.jpg
+38,教父2 The Godfather: Part Ⅱ,0071562,1974,9.1,233414,202,美国,剧情|犯罪,黑帮|教父|经典|美国|犯罪|剧情|人性|1974,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2194138787.jpg
+39,美国往事 Once Upon a Time in America,0087843,1984,9.1,209058,229,意大利|美国,剧情|犯罪,美国|黑帮|经典|人生|美国往事|罗伯特·德尼罗|剧情|美国电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p477229647.jpg
+40,虎口脱险 La grande vadrouille,0060474,1966,8.9,120791,132,法国|英国,喜剧|战争,喜剧|法国|经典|二战|搞笑|法国电影|战争|虎口脱险,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2399597512.jpg
+41,追随 Following,0154506,1998,8.9,92791,69,英国,悬疑|惊悚|犯罪,悬疑|英国|犯罪|剧情|黑白|经典|惊悚|美国,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1150103377.jpg
+42,爱·回家 집으로...,0312841,2002,9.0,52192,80,韩国,剧情|家庭,亲情|韩国|韩国电影|感动|温暖|童年|爱|感人,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2107418134.jpg
+43,我爱你 그대를 사랑합니다,1862020,2011,9.0,67460,118,韩国,剧情|爱情,爱情|韩国|韩国电影|温情|感人|黄昏恋|温暖|2011,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1075591188.jpg
+44,忠犬八公物语 ハチ公物語,0093132,1987,9.0,73544,107,日本,剧情,日本|感人|狗狗|温情|日本电影|动物|狗|八千公物语,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2297934945.jpg
+45,我的父亲，我的儿子 Babam ve Oğlum,0476735,2005,9.0,12864,113,土耳其,剧情|家庭,土耳其|亲情|父爱|感动|成长|剧情|人生|经典,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2096427072.jpg
+46,卡比利亚之夜 Le notti di Cabiria,0050783,1957,9.0,13738,110,意大利|法国,剧情|爱情,意大利|费里尼|意大利电影|爱情|1957|FedericoFellini|费德里科·费里尼|1950s,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2204675868.jpg
+47,鳄鱼波鞋走天涯 The Cure,0112757,1995,9.1,8057,97,美国,剧情|儿童,美国|友情|儿童|成长|美国电影|真情世界|亲情|孩子,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2188484411.jpg
+48,泰坦尼克号 Titanic,0120338,1997,9.3,868340,194,美国,剧情|爱情|灾难,爱情|经典|灾难|美国|浪漫|感动|奥斯卡|1997,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p457760035.jpg
+49,天使爱美丽 Le fabuleux destin d'Amélie Poulain,0211915,2001,8.7,565335,122,法国|德国,喜剧|爱情,法国|奥黛丽·塔图|爱情|法国电影|经典|文艺|喜剧|浪漫,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p803896904.jpg
+50,罗马假日 Roman Holiday,0046250,1953,9.0,472816,118,美国,剧情|喜剧|爱情,奥黛丽·赫本|经典|爱情|浪漫|罗马假日|美国|美国电影|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2189265085.jpg
+51,楚门的世界 The Truman Show,0120382,1998,9.2,623409,103,美国,剧情|科幻,人性|经典|美国|楚门的世界|剧情|JimCarrey|美国电影|喜剧,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p479682972.jpg
+52,音乐之声 The Sound of Music,0059742,1965,8.9,276613,174,美国,剧情|爱情|歌舞|传记,经典|音乐剧|美国|音乐之声|音乐|歌舞|爱情|美国电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p453788577.jpg
+53,大话西游之大圣娶亲 西遊記大結局之仙履奇緣,0114996,1995,9.2,643402,95,香港|中国大陆,喜剧|爱情|奇幻|冒险,经典|喜剧|爱情|香港|搞笑|中国|感人|1995,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg
+54,活着,0110081,1994,9.1,351037,132,中国大陆|香港,剧情|家庭|历史,张艺谋|活着|葛优|文革|中国电影|巩俐|剧情|中国,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2513253791.jpg
+55,钢琴家 The Pianist,0253474,2002,9.1,242364,150,法国|德国|英国|波兰,剧情|音乐|传记|历史|战争,二战|战争|人性|钢琴|波兰斯基|音乐|德国|法国,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792484461.jpg
+56,被嫌弃的松子的一生 嫌われ松子の一生,0768120,2006,8.9,362929,130,日本,剧情|歌舞,日本|剧情|人生|人性|歌舞|女性|经典|2006,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p453723669.jpg
+57,上帝之城 Cidade de Deus,0317248,2002,8.9,177185,130,巴西|法国,剧情|犯罪,巴西|暴力|犯罪|黑帮|青春|南美|人性|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p455677490.jpg
+58,一一,0244316,2000,9.0,180940,173,台湾|日本,剧情|爱情|家庭,杨德昌|台湾|台湾电影|文艺|生活|一一|楊德昌|人生,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2119675128.jpg
+59,雨中曲 Singin' in the Rain,0045152,1952,9.0,105340,103,美国,喜剧|爱情|歌舞,歌舞片|经典|美国|歌舞|音乐|爱情|美国电影|喜剧,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1612355875.jpg
+60,完美的世界 A Perfect World,0107808,1993,9.0,96792,138,美国,剧情|犯罪,美国|人性|犯罪|温情|经典|剧情|感人|成长,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p792403691.jpg
+61,伴我同行 Stand by Me,0092005,1986,8.9,59190,89,美国,剧情|儿童|冒险,成长|美国|青春|童年|1986|友情|剧情|经典,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1979379460.jpg
+62,大独裁者 The Great Dictator,0032553,1940,9.0,33643,125,美国,剧情|喜剧|战争,卓别林|喜剧|美国|经典|黑白|CharlesChaplin|美国电影|1940,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1960167314.jpg
+63,雾中风景 Τοπίο στην ομίχλη,0096288,1988,8.8,21011,127,希腊|法国|意大利,剧情,希腊|安哲罗普洛斯|西奥·安哲罗普洛斯|欧洲电影|雾中风景|经典|希腊电影|TheoAngelopoulos,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1117765592.jpg
+64,沉静如海 Le silence de la mer,0430594,2004,9.1,32158,93,法国|比利时,剧情|爱情|战争,爱情|法国|二战|战争|法国电影|沉静如海|文艺|2004,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p541622159.jpg
+65,听见天堂 Rosso come il cielo,0450121,2006,8.9,17765,96,意大利,剧情,意大利|励志|成长|听见天堂|意大利电影|盲童|经典|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p501470993.jpg
+66,大路 La strada,0047528,1954,8.9,18215,108,意大利,剧情,费里尼|意大利|意大利电影|黑白|经典|FedericoFellini|1954|剧情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1507944507.jpg
+67,爱情短片 Krótki film o miłości,0095467,1988,8.8,13849,86,波兰,剧情|爱情,波兰|爱情|1988|文艺|剧情|人性|经典|青春,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2189908788.jpg
+68,回归 Возвращение,0376968,2003,8.7,13889,105,俄罗斯,剧情|家庭,俄罗斯|俄罗斯电影|亲情|父子|剧情|AndreiZviagintsev|2003|回归,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p790496788.jpg
+69,淘金记 The Gold Rush,0015864,1925,9.0,19521,95,美国,喜剧|爱情|家庭|西部|冒险,卓别林|喜剧|美国|默片|经典|黑白|CharlesChaplin|1925,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1581774481.jpg
+70,乡愁 Ностальгия,0086022,1983,8.9,13739,125,苏联|意大利,剧情,塔可夫斯基|俄罗斯|苏联|AndreiTarkovsky|意大利|电影|Andrei_Tarkovsky|1983,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2455329155.jpg
+71,从海底出击 Das Boot,0082096,1981,9.0,17372,149,原西德,剧情|历史|战争|冒险,德国|二战|战争|潜艇|德国电影|经典|1981|沃尔夫冈·彼得森,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2088879323.jpg
+72,镜子 Зеркало,0072443,1975,8.9,11127,108,苏联,剧情|传记|历史|战争,苏联|大师|1975|传记|文艺|剧情|经典|战争,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2327630533.jpg
+73,神女,0195256,1934,9.0,12019,76,中国大陆,剧情,默片|黑白|1934|女性|经典|中国大陆|剧情|人性,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2028929312.jpg
+74,生之欲 生きる,0044741,1952,9.1,13423,143,日本,剧情,黑泽明|日本|日本电影|人性|经典|1952|生之欲|志村乔,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2079076441.jpg
+75,让子弹飞,1533117,2010,8.7,764441,132,中国大陆|香港,剧情|喜剧|动作|西部,黑色幽默|中国|喜剧|剧情|内地|人性|搞笑|2010,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1512562287.jpg
+76,当幸福来敲门 The Pursuit of Happyness,0454921,2006,9.0,686611,117,美国,剧情|家庭|传记,励志|父子|感动|美国电影|家庭|经典|人生|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1312700744.jpg
+77,怦然心动 Flipped,0817177,2010,9.0,737531,90,美国,剧情|喜剧|爱情,爱情|青春|成长|温情|初恋|文艺|浪漫|经典,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p663036666.jpg
+78,闻香识女人 Scent of a Woman,0105323,1992,9.0,400601,157,美国,剧情,经典|阿尔·帕西诺|美国|闻香识女人|人性|剧情|美国电影|AlPacino,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p925123037.jpg
+79,大话西游之月光宝盒 西遊記第壹佰零壹回之月光寶盒,0112778,1995,8.9,517362,87,香港|中国大陆,喜剧|爱情|奇幻|冒险,喜剧|经典|香港|爱情|大话西游|搞笑|中国|1995,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1280323646.jpg
+80,低俗小说 Pulp Fiction,0110912,1994,8.8,404543,154,美国,剧情|喜剧|犯罪,美国|黑色|经典|剧情|黑帮|黑色幽默|犯罪|1994,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910902213.jpg
+81,美丽心灵 A Beautiful Mind,0268978,2001,8.9,367113,135,美国,剧情|传记,传记|心理|美国|经典|励志|人生|爱情|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1665997400.jpg
+82,指环王1：魔戒再现 The Lord of the Rings: The Fellowship of the Ring,0120737,2001,8.9,368224,178,新西兰|美国,剧情|动作|奇幻|冒险,魔幻|史诗|美国|经典|大片|战争|2001|新西兰,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1354436051.jpg
+83,死亡诗社 Dead Poets Society,0097165,1989,9.0,344015,128,美国,剧情,成长|青春|美国|励志|教育|经典|死亡诗社|RobinWilliams,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910824340.jpg
+84,指环王2：双塔奇兵 The Lord of the Rings: The Two Towers,0167261,2002,9.0,328810,179,美国|新西兰,剧情|动作|奇幻|冒险,魔幻|史诗|美国|经典|战争|大片|2002|新西兰,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p909265336.jpg
+85,阳光姐妹淘 써니,1937339,2011,8.8,317437,124,韩国,剧情|喜剧,友情|青春|韩国|成长|感人|温情|喜剧|感动,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1374786017.jpg
+86,爱在黎明破晓前 Before Sunrise,0112471,1995,8.7,264412,101,美国|奥地利|瑞士,剧情|爱情,爱情|文艺|浪漫|美国|旅行|经典|1995|奥地利,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p452582315.jpg
+87,再见我们的幼儿园 さよならぼくたちのようちえん,1831754,2011,8.7,96707,105,日本,剧情,日本|童年|温情|感人|成长|儿童|2011|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2173712235.jpg
+88,菊次郎的夏天 菊次郎の夏,0199683,1999,8.8,224726,121,日本,剧情|喜剧,北野武|日本|温情|菊次郎的夏天|成长|日本电影|童年|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p751835224.jpg
+89,碧海蓝天 Le grand bleu,0095250,1988,8.7,114724,132,法国|美国|意大利,剧情|爱情,吕克·贝松|法国|碧海蓝天|法国电影|经典|剧情|LucBesson|吕克贝松,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p455722535.jpg
+90,荒野生存 Into the Wild,0758758,2007,8.6,142045,148,美国,剧情|传记|冒险,美国|在路上|传记|青春|自由|人生|真实故事|剧情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p465687407.jpg
+91,勇士 Warrior,1291584,2011,8.9,95844,140,美国,剧情|家庭|运动,动作|美国|励志|亲情|剧情|汤姆·哈迪|家庭|2011,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1145536386.jpg
+92,浪潮 Die Welle,1063669,2008,8.7,150892,107,德国,剧情|惊悚,德国|人性|政治|独裁|剧情|纪实|心理|2008,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1344888983.jpg
+93,梦之安魂曲 Requiem for a Dream,0180093,2000,8.7,125986,102,美国,剧情,黑色|毒品|美国|剧情|美国电影|Cult|人性|2000,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p884936202.jpg
+94,自闭历程 Temple Grandin,1278469,2010,8.8,43823,107,美国,剧情|传记,励志|心理|美国|传记|阿斯伯格综合症|美国电影|2010|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p583188016.jpg
+95,地球上的星星 Taare Zameen Par,0986264,2007,8.9,98459,165,印度,剧情|家庭|儿童,印度|成长|儿童|励志|印度电影|地球上的星星|童年|Aamir,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1973489335.jpg
+96,与狼共舞 Dances with Wolves,0099348,1990,8.9,58013,181,美国,剧情|西部|冒险,美国|西部片|经典|史诗|与狼共舞|西部|美国电影|剧情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p499158228.jpg
+97,我是山姆 I Am Sam,0277027,2001,8.8,122851,132,美国,剧情|家庭,亲情|美国|温情|感人|家庭|成长|剧情|人性,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p652417775.jpg
+98,迷墙 Pink Floyd The Wall,0084503,1982,8.7,36618,95,英国,剧情|动画|奇幻,PinkFloyd|摇滚|音乐|英国|迷墙|经典|电影|英国电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1555715207.jpg
+99,小情人 แฟนฉัน,0399040,2003,8.6,50777,110,泰国,喜剧|儿童,泰国|童年|小情人|纯真|泰国电影|成长|青春|儿童,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p450895244.jpg
+100,惊魂记 Psycho,0054215,1960,8.9,98116,109,美国,悬疑|惊悚|恐怖,希区柯克|悬疑|惊悚|美国|经典|1960|AlfredHitchcock|美国电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1021883305.jpg
+101,四百击 Les quatre cents coups,0053198,1959,8.7,53421,99,法国,剧情|犯罪,法国|新浪潮|特吕弗|法国电影|青春|经典|FrançoisTruffaut|1959,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2191743027.jpg
+102,上帝也疯狂2 The Gods Must Be Crazy II,0097443,1989,8.8,42515,98,博茨瓦纳|南非|美国,喜剧,喜剧|非洲|搞笑|经典|上帝也疯狂|美国|南非|美国电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1306760079.jpg
+103,偷自行车的人 Ladri di biciclette,0040522,1948,8.9,45925,89,意大利,剧情|犯罪,意大利|新现实主义|经典|黑白|剧情|1948|人性|犯罪,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p759707912.jpg
+104,无人知晓 誰も知らない,0408664,2004,9.1,90247,141,日本,剧情,日本|成长|人性|儿童|剧情|少年|社会|青春,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p661160053.jpg
+105,天佑鲍比 Prayers for Bobby,1073510,2009,8.9,31389,90,美国,剧情|同性|传记,同志|美国|人性|真实改编|宗教|感人|同性|gay,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1662271271.jpg
+106,"德州巴黎 Paris, Texas",0087884,1984,8.6,28497,147,英国|法国|美国|西德,剧情,公路电影|德国|维姆·文德斯|公路|美国|WimWenders|德国电影|文德斯,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p544482294.jpg
+107,步履不停 歩いても 歩いても,1087578,2008,8.8,104380,115,日本,剧情|家庭,日本|家庭|亲情|温情|人生|文艺|2008|剧情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p672446737.jpg
+108,金色池塘 On Golden Pond,0082846,1981,8.8,16987,109,英国|美国,剧情|家庭,美国|亲情|凯瑟琳·赫本|家庭|经典|美国电影|爱情|1981,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1211238404.jpg
+109,刺猬的优雅 Le hérisson,1442519,2009,8.8,68886,100,法国|意大利,剧情,法国|文艺|法国电影|刺猬的优雅|女性|剧情|人生|2009,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p489369851.jpg
+110,暴雨将至 Пред дождот,0110882,1994,8.7,18881,113,马其顿|法国|英国,剧情|战争,马其顿|欧洲电影|剧情|曼切夫斯基|民族|法国|Milcho_Manchevski|欧洲,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p470344042.jpg
+111,因父之名 In the Name of the Father,0107207,1993,8.8,23609,133,爱尔兰|英国|美国,剧情|传记,英国|爱尔兰|丹尼尔·戴-刘易斯|亲情|剧情|经典|因父之名|英国电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p758788727.jpg
+112,影子武士 影武者,0080979,1980,8.9,26346,180,美国|日本,剧情|历史|战争,黑泽明|日本|战争|日本电影|历史|经典|黑澤明|古装,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2346575798.jpg
+113,童年往事,0090185,1985,8.8,24848,137,台湾,剧情|家庭|传记,侯孝贤|台湾|台湾电影|童年往事|童年|1985|侯孝賢|电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2259777287.jpg
+114,永远的三丁目的夕阳 ALWAYS 三丁目の夕日,0488870,2005,8.8,29075,133,日本,剧情|家庭,日本|日本电影|温情|三丁目的夕阳|堀北真希|怀旧|励志|人生,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2517414566.jpg
+115,永恒和一日 Μια αιωνιότητα και μια μερα,0156794,1998,8.9,14487,137,法国|意大利|希腊|德国,剧情,安哲罗普洛斯|希腊|希腊电影|法国|经典|欧洲|TheoAngelopoulos|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1391839595.jpg
+116,独立时代 獨立時代,0109685,1994,8.8,17580,125,台湾,剧情,杨德昌|台湾|台湾电影|独立时代|1994|楊德昌|生活|爱情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2416432789.jpg
+117,楢山节考 楢山節考,0084390,1983,8.9,20407,130,日本,剧情,今村昌平|日本|日本电影|楢山节考|人性|剧情|经典|金棕榈奖,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p981755735.jpg
+118,芬妮与亚历山大 Fanny och Alexander,0083922,1982,8.8,9754,188,法国|瑞典|西德,剧情,英格玛·伯格曼|瑞典|IngmarBergman|经典|1982|伯格曼|瑞典电影|欧洲电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1172714598.jpg
+119,卡萨布兰卡 Casablanca,0034583,1942,8.6,139475,102,美国,剧情|爱情|战争,爱情|经典|卡萨布兰卡|美国|二战|战争|美国电影|1942,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1244791866.jpg
+120,鲁冰花 魯冰花,0097791,1989,8.8,9835,99,台湾,剧情|家庭,台湾|童年|台湾电影|鲁冰花|感动过我的片子|儿童|剧情|电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2233267812.jpg
+121,我的九月,4053842,1990,8.8,6851,88,中国大陆,剧情|儿童,儿童|童年|怀旧|1990|亚运会|成长|中国大陆|剧情,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2494288807.jpg
+122,乌龟也会飞 لاک پشت ها هم پرواز می کنند,0424227,2004,8.8,5664,98,伊朗|法国|伊拉克,剧情|战争,伊朗|战争|儿童|伊朗电影|伊拉克|人性|乌龟也会飞|2004,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2178989826.jpg
+123,毕加索的奇异旅程 Picassos äventyr,0078084,1978,8.7,4850,115,瑞典,喜剧,瑞典|喜剧|荒诞|传记|毕加索的奇异旅行|艺术|Picasso|欧洲电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2238117435.jpg
+124,假面 Persona,0060827,1966,8.7,11672,85,瑞典,剧情,英格玛·伯格曼|瑞典|IngmarBergman|瑞典电影|1966|伯格曼|1960s|假面,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2507966309.jpg
+125,呼喊与细语 Viskningar och rop,0069467,1972,8.7,11016,91,瑞典,剧情|爱情,英格玛·伯格曼|瑞典|女性|IngmarBergman|伯格曼|瑞典电影|1972|欧洲,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2183935299.jpg
+126,大都会 Metropolis,0017136,1927,8.9,16669,153,德国,剧情|科幻,科幻|德国|默片|经典|德国电影|1927|Fritz_Lang|FritzLang,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p906689323.jpg
+127,烈日灼人 Утомлённые солнцем,0111579,1994,8.7,9314,151,俄罗斯|法国,剧情|历史,俄罗斯|剧情|历史|政治|1994|人性|法国|经典,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p799102683.jpg
+128,伴你高飞 Fly Away Home,0116329,1996,8.9,13031,107,美国,剧情|家庭|冒险,美国|自然|亲情|温情|动物|生态|美国电影|温馨,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1378705974.jpg
+129,杀人短片 Krótki film o zabijaniu,0095468,1988,8.5,6964,84,波兰,剧情|犯罪,波兰|犯罪|1988|剧情|人性|心理|经典|文艺,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2497615647.jpg
+130,阿凡达 Avatar,0499549,2009,8.6,628514,162,美国|英国,动作|科幻|战争|冒险,科幻|3D|美国|震撼|IMAX|史诗|战争|2009,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p492458287.jpg
+131,情书 Love Letter,0113703,1995,8.8,449674,117,日本,剧情|爱情,爱情|日本|青春|经典|文艺|暗恋|温情|感人,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p449897379.jpg
+132,剪刀手爱德华 Edward Scissorhands,0099487,1990,8.7,571890,105,美国,剧情|爱情|奇幻,爱情|JohnnyDepp|剪刀手爱德华|经典|童话|美国|科幻|TimBurton,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p480956937.jpg
+133,勇敢的心 Braveheart,0112573,1995,8.8,339300,177,美国,剧情|动作|传记|历史|战争,史诗|勇敢的心|战争|经典|自由|梅尔·吉布森|美国|历史,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1374546770.jpg
+134,七宗罪 Se7en,0114369,1995,8.8,507347,127,美国,剧情|悬疑|惊悚|犯罪,悬疑|犯罪|七宗罪|美国|大卫·芬奇|宗教|惊悚|经典,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p457631605.jpg
+135,入殓师 おくりびと,1069238,2008,8.8,358214,130,日本,剧情,日本|日本电影|入殓师|剧情|广末凉子|奥斯卡|本木雅弘|人性,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p594972928.jpg
+136,大鱼 Big Fish,0319061,2003,8.7,296481,125,美国,剧情|家庭|奇幻|冒险,亲情|美国|奇幻|TimBurton|童话|魔幻|剧情|美国电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p692813374.jpg
+137,无间道 無間道,0338564,2002,9.1,527983,101,香港,剧情|悬疑|犯罪,香港|警匪|黑帮|经典|犯罪|动作|剧情|中国,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2233971046.jpg
+138,岁月神偷 歲月神偷,1602572,2010,8.6,346371,117,香港|中国大陆,剧情|家庭,香港|温情|亲情|人生|怀旧|家庭|感人|剧情,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p456666151.jpg
+139,阳光灿烂的日子,0111786,1994,8.8,323656,134,中国大陆|香港,剧情,姜文|青春|阳光灿烂的日子|经典|夏雨|文革|中国电影|中国,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p967457079.jpg
+140,射雕英雄传之东成西就 射鵰英雄傳之東成西就,0108074,1993,8.7,322058,113,香港,喜剧|古装,喜剧|香港|搞笑|经典|张国荣|梁朝伟|刘镇伟|1993,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1993903133.jpg
+141,致命魔术 The Prestige,0482571,2006,8.8,413761,130,美国|英国,剧情|悬疑|惊悚,悬疑|魔术|美国|剧情|ChristopherNolan|科幻|魔幻|美国电影,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480383375.jpg
+142,燃情岁月 Legends of the Fall,0110322,1994,8.7,164141,133,美国,剧情|爱情|家庭|西部,美国|西部|爱情|经典|人生|剧情|亲情|秋日传奇,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1023654037.jpg
+143,告白,1590089,2010,8.7,401110,106,日本,剧情|惊悚,日本|悬疑|人性|剧情|犯罪|惊悚|心理|2010,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p689520756.jpg
+144,蝙蝠侠：黑暗骑士 The Dark Knight,0468569,2008,9.1,424017,152,美国|英国,剧情|动作|科幻|惊悚|犯罪,美国|科幻|诺兰|动作|犯罪|人性|经典|漫画改编,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p462657443.jpg
+145,第六感 The Sixth Sense,0167404,1999,8.8,276992,107,美国,剧情|悬疑|惊悚,悬疑|惊悚|美国|灵异|心理|经典|剧情|恐怖,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2220184425.jpg
+146,海盗电台 The Boat That Rocked,1131729,2009,8.6,179372,116,英国|德国|法国,剧情|喜剧|音乐,英国|摇滚|音乐|喜剧|海盗电台|理想|励志|2009,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p769608791.jpg
+147,爱在日落黄昏时 Before Sunset,0381681,2004,8.8,233845,80,美国,剧情|爱情,爱情|文艺|美国|浪漫|经典|人生|旅行|2004,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1910924055.jpg
+148,魂断蓝桥 Waterloo Bridge,0033238,1940,8.8,145053,108,美国,剧情|爱情|战争,爱情|经典|费雯丽|美国|魂断蓝桥|战争|美国电影|电影,https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2351134499.jpg
+149,燕尾蝶 スワロウテイル,0117797,1996,8.6,115010,148,日本,剧情|犯罪,日本|文艺|青春|剧情|1996|犯罪|人性|经典,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p532195562.jpg
+150,教父3 The Godfather: Part III,0099674,1990,8.8,154755,170,美国,剧情|犯罪,黑帮|教父|经典|美国|犯罪|剧情|电影|1990,https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2169664351.jpg
