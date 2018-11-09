@@ -6,6 +6,7 @@ from random import choice
 
 top250url = 'https://movie.douban.com/top250?start='
 loginUrl = 'https://accounts.douban.com/login?source=movie'
+titlesListPath = 'D:/PycharmProjects/WebCrawlers/data/titlelist'
 
 TitleList = list()
 YearList = list()
@@ -18,6 +19,11 @@ RatingList = list()
 VoteNumList = list()
 NationList = list()
 LanguageList = list()
+DirectorList = list()
+StarsList = list()
+
+existedImdbIDList = list()
+existedNum = 0
 totalMovieNum = 0
 crawledNum = 0
 
@@ -28,6 +34,14 @@ myHeaders = ["Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, lik
              "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0)"
              ]
 params = {'User-Agent': choice(myHeaders)}
+
+
+def getExisted():
+    with open(titlesListPath) as f:
+        global existedTitlesList
+        existedTitlesList = f.readline().split('|')
+
+
 def getHTMLText(url):
     r = requests.get(url)
     try:
@@ -63,7 +77,7 @@ def scratchRankPageInfo(url, pageIndex):
 def computeTotalNum(urlList):
     global totalMovieNum
     for url in urlList:
-        time.sleep(1)
+        time.sleep(1.5)
         text = getHTMLText(url)
         soup = BeautifulSoup(text, 'html.parser')
         try:
@@ -98,7 +112,7 @@ def scratchDoulist(url):
         numPages = int(totalNum / 25 + 1)
         print(numPages)
         for i in range(numPages):
-            time.sleep(0.8)
+            time.sleep(1.2)
             scratchDoulistInfo(url + "?start=" + str(i*25))
     except:
         print('Error connecting ', url)
@@ -114,15 +128,8 @@ def scratchDoulistInfo(url):
         time.sleep(0.5)
         crawlMovieInfo(url)
 
+
 def scratchCategoricalRankInfo(url, type_name, type, interval_id):
-    param = {
-        'User-Agent':
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0',
-        'type_name': type_name,
-        'type': type,
-        'interval_id': interval_id,
-        'action': ''
-    }
     rankUrl = url + 'type_name=' + type_name + '&type=' + type + '&interval_id=' + interval_id + '&action='
     print(rankUrl)
     text = getHTMLText(rankUrl)
@@ -137,7 +144,7 @@ def scratchCategoricalRankInfo(url, type_name, type, interval_id):
 
 
 def crawlMovieInfo(url):
-    global crawledNum
+    global crawledNum, totalMovieNum
     text = getHTMLText(url)
     soup = BeautifulSoup(text, 'html.parser')
 
@@ -161,15 +168,26 @@ def crawlMovieInfo(url):
         for item in soup.find_all(name='a', attrs={'rel': 'nofollow', 'target': '_blank'}):
             if item.string[0:2] == 'tt':
                 imdbId = item.string[2:]
+        directorsList = list()
+        for item in soup.find_all(name='a', attrs={'rel': 'v:directedBy'}):
+            directorsList.append(item.string)
+        directors = '|'.join(directorsList)
+        starsList = list()
+        for item in soup.find_all(name='a', attrs={'rel': 'v:starring'}):
+            starsList.append(item.string)
+        stars = '|'.join(starsList)
+
     except:
         print('Someting Not Found')
+        totalMovieNum = totalMovieNum - 1
         return
 
     if imdbId == '':
+        totalMovieNum = totalMovieNum - 1
         return
-    if title in TitleList:
+
+    if title in existedTitlesList:
         print('Already Exists')
-        global totalMovieNum
         totalMovieNum = totalMovieNum - 1
         return
 
@@ -185,8 +203,11 @@ def crawlMovieInfo(url):
     print(genres)
     print(nation)
     print(imdbId)
-    # print('Progress: {:.2%}'.format(crawledNum / totalMovieNum))
+    print(directors)
+    print(stars)
+    print('Progress: {:.2%}'.format(crawledNum / totalMovieNum))
 
+    existedTitlesList.append(title)
     TitleList.append(title)
     YearList.append(year)
     picUrlList.append(picUrl)
@@ -197,6 +218,8 @@ def crawlMovieInfo(url):
     GenresList.append(genres)
     NationList.append(nation)
     ImdbIdList.append(imdbId)
+    DirectorList.append(directors)
+    StarsList.append(stars)
 
 
 
@@ -205,6 +228,12 @@ def main():
     urlList = ['https://www.douban.com/doulist/240962/']
     test('https://www.douban.com/doulist/240962/')
     '''
+
+    with open(titlesListPath, 'r', encoding='utf-8') as f:
+        global existedTitlesList
+        existedTitlesList = f.readline().split('|')[1:]
+    global existedNum
+    existedNum = len(existedTitlesList)
 
     douLists = ['https://www.douban.com/doulist/240962/', 'https://www.douban.com/doulist/243559/',
                 'https://www.douban.com/doulist/248893/', 'https://www.douban.com/doulist/2443408/',
@@ -216,19 +245,19 @@ def main():
                 'https://www.douban.com/doulist/4408143/', 'https://www.douban.com/doulist/5509096/',
                 'https://www.douban.com/doulist/11393796/', 'https://www.douban.com/doulist/4337109/',
                 'https://www.douban.com/doulist/3575523/', 'https://www.douban.com/doulist/4363132/',
-                'https://www.douban.com/doulist/4254982/']
-
+                'https://www.douban.com/doulist/4254982/'][9:]
+    print(douLists)
 
     computeTotalNum(douLists)
     print(totalMovieNum)
     for url in douLists:
         scratchDoulist(url)
 
-    idList = range(0, len(TitleList))
+    idList = range(existedNum + 1, existedNum + 1+ len(TitleList))
 
     print(len(TitleList), len(YearList), len(picUrlList), len(GenresList),
           len(LengthsList), len(TagsList), len(ImdbIdList), len(RatingList),
-          len(VoteNumList), len(NationList), len(idList))
+          len(VoteNumList), len(NationList), len(idList), len(DirectorList), len(StarsList))
 
     data = {
         'ID': idList,
@@ -241,19 +270,25 @@ def main():
         'Nation': NationList,
         'Genres': GenresList,
         'Tags': TagsList,
-        'PictureUrl': picUrlList
+        'PictureUrl': picUrlList,
+        'Directors': DirectorList,
+        'Starring': StarsList
     }
 
-    columns = ['ID', 'Title', 'IMDb', 'Year', 'Rating', 'VotingNumber',
-               'Length', 'Nation', 'Genres', 'Tags', 'PictureUrl']
+    columns = ['ID', 'Title', 'IMDb', 'Year', 'Ra'
+                                              'ting', 'VotingNumber',
+               'Length', 'Nation', 'Genres', 'Tags', 'PictureUrl', 'Directors', 'Starring']
 
     pdFrame = pd.DataFrame(data=data)
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
 
-    txt = pdFrame.to_html(justify='center', columns=columns, index=False)
-    with open('D:/PycharmProjects/WebCrawlers/data/top.html', 'w', encoding='utf-8') as f:
-        f.write(txt)
-    pdFrame.to_csv('D:/PycharmProjects/WebCrawlers/data/top250',
+    pdFrame.to_csv('D:/PycharmProjects/WebCrawlers/data/movies_info_part2'
+                   ''
+                   '',
                    encoding='utf-8', sep=',', index=False, columns=columns)
+    with open(titlesListPath, 'w', encoding='utf-8') as f:
+        f.write('|'.join(existedTitlesList))
+
+
 main()
