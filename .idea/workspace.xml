@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ScratchDoulists.py" line="142" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/ScratchDoulists.py" line="133" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b00f1e1-1f45-4048-81e8-c2e88612afdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/movies_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/titlelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MovieSummaryScratch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/top.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/top250" beforeDir="false" afterPath="$PROJECT_DIR$/data/top250" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scratch250.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScratchDoulists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/movies_info_part2" beforeDir="false" afterPath="$PROJECT_DIR$/data/movies_info_part2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/titlelist" beforeDir="false" afterPath="$PROJECT_DIR$/data/titlelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScratchDoulists.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScratchDoulists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,160 +19,250 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WebCrawlers$pytest_in_ScratchDoulists_py.coverage" NAME="pytest in ScratchDoulists.py Coverage Results" MODIFIED="1541640765157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/WebCrawlers$Scratch250.coverage" NAME="Scratch250 Coverage Results" MODIFIED="1541723666628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$recv.coverage" NAME="recv Coverage Results" MODIFIED="1546087116090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$MovieSummaryScratch.coverage" NAME="MovieSummaryScratch Coverage Results" MODIFIED="1545443642297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$tomcat.coverage" NAME="tomcat Coverage Results" MODIFIED="1545564610822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$ScratchDoulists.coverage" NAME="ScratchDoulists Coverage Results" MODIFIED="1545839165376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$lenovo_new.coverage" NAME="lenovo_new Coverage Results" MODIFIED="1546267618167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$MongoData.coverage" NAME="MongoData Coverage Results" MODIFIED="1544444420743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$pytest_in_ScratchDoulists_py.coverage" NAME="pytest in ScratchDoulists.py Coverage Results" MODIFIED="1543229633525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$socket_file.coverage" NAME="socket_file Coverage Results" MODIFIED="1545661680029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$send.coverage" NAME="send Coverage Results" MODIFIED="1546087130666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$csdn.coverage" NAME="csdn Coverage Results" MODIFIED="1543025716839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$Scratch250.coverage" NAME="Scratch250 Coverage Results" MODIFIED="1542983496198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$CelebrityScratch.coverage" NAME="CelebrityScratch Coverage Results" MODIFIED="1545388985719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/DoulistCrawler" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$lenovo.coverage" NAME="lenovo Coverage Results" MODIFIED="1544506291238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/WebCrawlers$socket.coverage" NAME="socket Coverage Results" MODIFIED="1545657167826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="370444951">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="55" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.114" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.151" value="1" />
           <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.196" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="6" />
+          <entry key="project.open.time.21" value="4" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.23" value="4" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.37" value="3" />
           <entry key="project.open.time.40" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="51" />
-          <entry key="dummy" value="8" />
+          <entry key="Python Console" value="787" />
+          <entry key="dummy" value="15" />
           <entry key="movies_info_part1" value="1" />
-          <entry key="py" value="8669" />
+          <entry key="movies_info_part2" value="1" />
+          <entry key="movies_part1" value="2" />
+          <entry key="py" value="41177" />
           <entry key="titlelist" value="19" />
+          <entry key="titles" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="8720" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Python" value="41963" />
+          <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="AlchemyModelDependency/#WebCrawlers" value="1" />
           <entry key="csv" value="1" />
-          <entry key="doulists" value="2" />
+          <entry key="data'" value="1" />
+          <entry key="doulists" value="3" />
           <entry key="html" value="2" />
+          <entry key="json" value="1" />
           <entry key="movie_info" value="1" />
-          <entry key="movies_info" value="3" />
-          <entry key="movies_info_part1" value="2" />
+          <entry key="movies_info" value="4" />
+          <entry key="movies_info_part1" value="3" />
           <entry key="movies_info_part2" value="1" />
-          <entry key="py" value="1" />
+          <entry key="movies_info_part3" value="1" />
+          <entry key="movies_info_part4" value="1" />
+          <entry key="movies_info_part5" value="1" />
+          <entry key="movies_part1" value="1" />
+          <entry key="py" value="29" />
           <entry key="titlelist" value="2" />
+          <entry key="titles" value="1" />
           <entry key="top250" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="29" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.75277776">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ScratchDoulists.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="255" column="49" selection-start-line="255" selection-start-column="49" selection-end-line="255" selection-end-column="49" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                    <marker date="1541727683993" expanded="true" signature="1277:1401" ph="..." />
-                    <marker date="1541727683993" expanded="true" signature="2797:3104" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/movies_info_part1">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-29931">
-                  <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/doulists">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/movies_info_part2">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/titlelist">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/movies_info">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ScratchDoulists.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="236" selection-start-line="236" selection-end-line="236" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                    <marker date="1541727683993" expanded="true" signature="1277:1401" ph="..." />
-                    <marker date="1541727683993" expanded="true" signature="2797:3104" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/top250.csv">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/top250">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data/top.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lenovo_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1979">
+              <caret line="326" column="15" lean-forward="true" selection-start-line="326" selection-start-column="15" selection-end-line="326" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1546264582393" expanded="true" signature="6927:7305" ph="..." />
+                <marker date="1546264582393" expanded="true" signature="9087:9611" ph="..." />
+                <marker date="1546264582393" expanded="true" signature="9632:11079" ph="..." />
+                <marker date="1546264582393" expanded="true" signature="11098:11254" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/new_b'ECG.data'">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScratchDoulists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6462">
+              <caret line="359" column="72" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1545839165282" expanded="true" signature="202:203" ph="..." />
+                <marker date="1545839165282" expanded="true" signature="3227:3229" ph="..." />
+                <marker date="1545839165282" expanded="true" signature="3928:4969" ph="..." />
+                <marker date="1545839165282" expanded="true" signature="6766:7078" ph="..." />
+                <marker date="1545839165282" expanded="true" signature="7105:7110" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lenovo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3438">
+              <caret line="191" column="24" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1545921781867" expanded="true" signature="3452:4536" ph="..." />
+                <marker date="1545921781867" expanded="true" signature="3579:3682" ph="..." />
+                <marker date="1545921781867" expanded="true" signature="4260:4536" ph="..." />
+                <marker date="1545921781867" expanded="true" signature="4577:4582" ph="..." />
+                <marker date="1545921781867" expanded="true" signature="8218:8306" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DoulistCrawler/DoulistCrawler.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DoulistCrawler/CelebrityScratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5004">
+              <caret line="284" selection-start-line="284" selection-end-line="284" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MongoData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2610">
+              <caret line="145" column="55" selection-start-line="145" selection-start-column="55" selection-end-line="145" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1544438221310" expanded="true" signature="811:1158" ph="..." />
+                <marker date="1544438221310" expanded="true" signature="2184:2187" ph="..." />
+                <marker date="1544438221310" expanded="true" signature="4473:4475" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/error_log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/send.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1545830800431" expanded="true" signature="70:75" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,7 +276,17 @@
       <find>scratchPageInfo</find>
       <find>RuntimeList</find>
       <find>疯狂世界</find>
+      <find>computeTotalNum</find>
+      <find>log/error_log.txt</find>
+      <find>og/error_log.txt</find>
+      <find>httpError</find>
+      <find>director</find>
     </findStrings>
+    <replaceStrings>
+      <replace>compute_total_num</replace>
+      <replace>httpErrorNum</replace>
+      <replace>item</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,8 +296,27 @@
       <list>
         <option value="$PROJECT_DIR$/src/Scratch250.py" />
         <option value="$PROJECT_DIR$/data/movies_info_part1" />
+        <option value="$PROJECT_DIR$/data/movies_info_part2" />
         <option value="$PROJECT_DIR$/data/titlelist" />
+        <option value="$PROJECT_DIR$/data/movies_part1" />
+        <option value="$PROJECT_DIR$/csdn.py" />
+        <option value="$PROJECT_DIR$/data/titles" />
+        <option value="$PROJECT_DIR$/../TkinterProjects/srdp_parse_info.py" />
+        <option value="$PROJECT_DIR$/src/DoulistCrawler.py" />
+        <option value="$PROJECT_DIR$/src/DoulistCrawler/databaseQuerier.py" />
+        <option value="$PROJECT_DIR$/src/MovieSummaryScratch.py" />
+        <option value="$PROJECT_DIR$/src/MongoData.py" />
+        <option value="$PROJECT_DIR$/src/DoulistCrawler/CelebrityScratch.py" />
+        <option value="$PROJECT_DIR$/src/tomcat.py" />
+        <option value="$PROJECT_DIR$/src/socket.py" />
+        <option value="$PROJECT_DIR$/src/socket_file.py" />
+        <option value="$PROJECT_DIR$/src/client.ppy.py" />
+        <option value="$PROJECT_DIR$/src/client.py" />
+        <option value="$PROJECT_DIR$/src/send.py" />
+        <option value="$PROJECT_DIR$/src/recv.py" />
         <option value="$PROJECT_DIR$/src/ScratchDoulists.py" />
+        <option value="$PROJECT_DIR$/src/lenovo.py" />
+        <option value="$PROJECT_DIR$/lenovo_new.py" />
       </list>
     </option>
   </component>
@@ -207,7 +326,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="y" value="30" />
     <option name="width" value="697" />
@@ -230,12 +349,13 @@
             <path>
               <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebCrawlers" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCrawlers" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DoulistCrawler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,10 +364,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/PycharmProjects/WebCrawlers/src/MongoData.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TkinterProjects/srdp_parse_info.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\WebCrawlers\src\DoulistCrawler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\WebCrawlers\src" />
+      <recent name="D:\PycharmProjects\WebCrawlers\data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Scratch250">
+  <component name="RunManager" selected="Python.lenovo_new">
     <configuration name="Scratch250" type="PythonConfigurationType" factoryName="Python">
       <module name="WebCrawlers" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,29 +415,131 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in ScratchDoulists.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="ScratchDoulists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebCrawlers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/ScratchDoulists.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ScratchDoulists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lenovo_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebCrawlers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lenovo_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebCrawlers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/recv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebCrawlers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="socket_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebCrawlers" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/socket_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Scratch250" />
-      <item itemvalue="Python tests.pytest in ScratchDoulists.py" />
+      <item itemvalue="Python.ScratchDoulists" />
+      <item itemvalue="Python.socket_file" />
+      <item itemvalue="Python.recv" />
+      <item itemvalue="Python.send" />
+      <item itemvalue="Python.lenovo_new" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in ScratchDoulists.py" />
+        <item itemvalue="Python.lenovo_new" />
+        <item itemvalue="Python.send" />
+        <item itemvalue="Python.recv" />
+        <item itemvalue="Python.ScratchDoulists" />
+        <item itemvalue="Python.socket_file" />
       </list>
     </recent_temporary>
   </component>
@@ -342,17 +575,20 @@
     <history-entry file="pytest_in_ScratchDoulists_py - 2018.11.08 at 09h 32m 52s.xml">
       <configuration name="pytest in ScratchDoulists.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_ScratchDoulists_py - 2018.11.24 at 22h 03m 04s.xml">
+      <configuration name="pytest in ScratchDoulists.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.19515885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.15355521" />
       <window_info id="Structure" order="1" sideWeight="0.5011765" side_tool="true" weight="0.24583964" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9757674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2374798" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,15 +597,17 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32903227" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3279483" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.44588044" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.32956383" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3065574" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.277865" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,14 +653,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/movie_info" />
-    <entry file="file://$PROJECT_DIR$/data/doulists">
+    <entry file="file://$PROJECT_DIR$/data/movies_info_part2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movies_info_part4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movies_info_part3">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/titlelist">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/movies_info">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/data/movies_info_part5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/top250.csv">
       <provider selected="true" editor-type-id="text-editor" />
@@ -431,36 +691,207 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/top.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/doulists">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movies_info">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movies_part1">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csdn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/titles">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movies_info_part1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/lenovo/Anaconda3/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/lenovo/Anaconda3/Lib/site-packages/pymongo/collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="3304" selection-start-line="3304" selection-end-line="3304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TkinterProjects/Gooey/SRDP/srdp_parse_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Users/lenovo/Anaconda3/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tomcat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/lenovo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MovieSummaryScratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket_file.py" />
+    <entry file="file://$PROJECT_DIR$/src/client.ppy.py" />
+    <entry file="uml://AlchemyModelDependency/#WebCrawlers">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
+          <ID>AlchemyModelDependency</ID>
+          <OriginalElement>#WebCrawlers</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="242.0" y="173.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoulistCrawler/databaseQuerier.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/movies_info_part1">
+    <entry file="file://$PROJECT_DIR$/src/recv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29931">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="666">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/movies_info_part2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/new_b'ECG.data'">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ScratchDoulists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="255" column="49" selection-start-line="255" selection-start-column="49" selection-end-line="255" selection-end-column="49" />
+        <state relative-caret-position="6462">
+          <caret line="359" column="72" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="72" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1541727683993" expanded="true" signature="1277:1401" ph="..." />
-            <marker date="1541727683993" expanded="true" signature="2797:3104" ph="..." />
+            <marker date="1545839165282" expanded="true" signature="202:203" ph="..." />
+            <marker date="1545839165282" expanded="true" signature="3227:3229" ph="..." />
+            <marker date="1545839165282" expanded="true" signature="3928:4969" ph="..." />
+            <marker date="1545839165282" expanded="true" signature="6766:7078" ph="..." />
+            <marker date="1545839165282" expanded="true" signature="7105:7110" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lenovo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3438">
+          <caret line="191" column="24" selection-start-line="191" selection-start-column="24" selection-end-line="191" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1545921781867" expanded="true" signature="3452:4536" ph="..." />
+            <marker date="1545921781867" expanded="true" signature="3579:3682" ph="..." />
+            <marker date="1545921781867" expanded="true" signature="4260:4536" ph="..." />
+            <marker date="1545921781867" expanded="true" signature="4577:4582" ph="..." />
+            <marker date="1545921781867" expanded="true" signature="8218:8306" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoulistCrawler/DoulistCrawler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoulistCrawler/CelebrityScratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5004">
+          <caret line="284" selection-start-line="284" selection-end-line="284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MongoData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="145" column="55" selection-start-line="145" selection-start-column="55" selection-end-line="145" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1544438221310" expanded="true" signature="811:1158" ph="..." />
+            <marker date="1544438221310" expanded="true" signature="2184:2187" ph="..." />
+            <marker date="1544438221310" expanded="true" signature="4473:4475" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/error_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1545830800431" expanded="true" signature="70:75" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lenovo_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1979">
+          <caret line="326" column="15" lean-forward="true" selection-start-line="326" selection-start-column="15" selection-end-line="326" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1546264582393" expanded="true" signature="6927:7305" ph="..." />
+            <marker date="1546264582393" expanded="true" signature="9087:9611" ph="..." />
+            <marker date="1546264582393" expanded="true" signature="9632:11079" ph="..." />
+            <marker date="1546264582393" expanded="true" signature="11098:11254" ph="..." />
           </folding>
         </state>
       </provider>
