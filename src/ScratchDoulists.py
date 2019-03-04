@@ -36,21 +36,39 @@ params = {'User-Agent': choice(myHeaders)}
 
 def get_movie_info_collection():
     client = MongoClient(connect=False)
-    db = client.movie_recommender
-    movie_info = db.movies_info
+    db = client.felkub
+    movie_info = db.movies
     return movie_info
 
+def get_back_up_movie_info_collection():
+    client = MongoClient(connect=False)
+    db = client.felkub
+    movie_info = db.backup
+    return movie_info
+
+def get_directors_info_collection():
+    client = MongoClient(connect=False)
+    db = client.felkub
+    directors_info = db.directors
+    return directors_info
+
+
+def get_starring_info_collection():
+    client = MongoClient(connect=False)
+    db = client.felkub
+    starring_info = db.starring
+    return starring_info
 
 def get_doulists_collection():
     client = MongoClient(connect=False)
-    db = client.movie_recommender
+    db = client.felkub
     doulists = db.doulists
     return doulists
 
 
 def get_error_collection():
     client = MongoClient(connect=False)
-    db = client.movie_recommender
+    db = client.felkub
     error_log = db.error_log
     return error_log
 
@@ -59,6 +77,14 @@ def get_existed():
     movie_info = get_movie_info_collection()
     existed_url_list = movie_info.distinct('Url')
     return existed_url_list
+
+
+def get_undownloaded_pics():
+    movie_info = get_movie_info_collection()
+    url_list = set()
+    for item in movie_info.find({'PicDownloaded': {"$exists": False}}):
+        url_list.add((item['PictureUrl'], item['IMDB'], item['Title']))
+    return url_list
 
 
 def get_existed_doulist():
@@ -77,7 +103,7 @@ def get_html_text(url):
     global attributeErrorNum, httpErrorNum
     try:
         proxy = {'https:': '127.0.0.1:1080', 'http:': '127.0.0.1:1080'}
-        r = requests.get(url)
+        r = requests.get(url, proxies=proxy)
         r.headers = params
         r.encoding = 'utf-8'
         status = r.status_code
@@ -90,39 +116,6 @@ def get_html_text(url):
         print(url)
         print(traceback.format_exc())
 
-
-def get_login_redirect(url):
-    data = {
-        'ck': 'wsiN',
-        'source': None,
-        'redir': url,
-        'form_email': 'dingzhx@vip.qq.com',
-        'form_password': 'josephlive199823',
-        'login': '登录'
-    }
-    try:
-        r = requests.post(url = 'https://accounts.douban.com/login', data = data)
-        r.headers = params
-        r.encoding = 'urf-8'
-        r.raise_for_status()
-        page = r.text
-        soup = BeautifulSoup(page, "html.parser")
-        captchaAddr = soup.find('img', id='captcha_image')['src']
-        # 利用正则表达式获取captcha的ID
-        reCaptchaID = r'<input type="hidden" name="captcha-id" value="(.*?)"/'
-        captchaID = re.findall(reCaptchaID, page)
-        # print captchaID
-        # 保存到本地
-        captcha = str('please input the captcha:')
-
-        data['captcha-solution'] = captcha
-        data['captcha-id'] = captchaID
-
-        r = requests.post(url = 'https://accounts.douban.com/login', data = data, headers = params)
-        return r.text
-    except:
-        print(url)
-        print(traceback.format_exc())
 
 def compute_total_num(url_list):
     global total_movie_num
@@ -204,9 +197,11 @@ def crawl_movie_info(url):
         print('Already Exists')
         return 0
 
+    '''
     if url in get_existed_error():
         print('Already Detected')
         return 1
+    '''
 
     text = get_html_text(url)
     soup = BeautifulSoup(text, 'html.parser')
@@ -215,6 +210,7 @@ def crawl_movie_info(url):
         title = soup.find(name='span', attrs={'property': 'v:itemreviewed'}).string
         year = int(soup.find(name='span', attrs={'class': 'year'}).string[1:-1])
         pic_url = soup.find(name='a', attrs={'class': 'nbgnbg'}).img['src']
+        pic_name = pic_url.split('/')[-1]
         rating = float(soup.find(name='strong', attrs={'class': 'll rating_num', 'property': 'v:average'}).string)
         vote_num = int(soup.find(name='span', attrs={'property': 'v:votes'}).string)
         length = int(soup.find(name='span', attrs={'property': 'v:runtime'})['content'])
@@ -252,6 +248,15 @@ def crawl_movie_info(url):
             starts_list.append(item.string)
         stars = '|'.join(starts_list)
 
+        starring_url = list()
+        director_url = list()
+        for item in soup.find_all(name='a', attrs={'rel': 'v:directedBy'}):
+            _url = 'https://movie.douban.com' + item['href']
+            director_url.append(_url)
+        for item in soup.find_all(name='a', attrs={'rel': 'v:starring'}):
+            _url = 'https://movie.douban.com' + item['href']
+            starring_url.append(_url)
+
         summary = str()
         for item in soup.find_all(name='span', attrs={'class': "", 'property': "v:summary"}):
             str_list = item.contents
@@ -267,6 +272,7 @@ def crawl_movie_info(url):
         print(title)
         print(year)
         print(pic_url)
+        print(pic_name)
         print(rating)
         print(vote_num)
         print(length)
@@ -275,7 +281,9 @@ def crawl_movie_info(url):
         print(nation)
         print(imdb_id)
         print(directors)
+        print(director_url)
         print(stars)
+        print(starring_url)
         print(summary)
         print(url)
 
@@ -290,11 +298,18 @@ def crawl_movie_info(url):
             'Genres': genres.split('|'),
             'Tags': tags.split('|'),
             'PictureUrl': pic_url,
+            'PicName': pic_name,
             'Directors': directors.split('|'),
             'Starring': stars.split('|'),
             'Summary': summary,
-            'Url': url
+            'Url': url,
+            'DirectorsUrls': director_url,
+            'StarringUrls': starring_url,
+            'Transported': False,
+            'celeb_processed': False,
+            'PicDownloaded': False
         })
+
         return 2
     except:
         print('Error!', url)
@@ -312,6 +327,7 @@ def proceed():
     inserted_num = 0
     new_error_num = 0
     for doulist in doulists.find({'crawled': False}):
+        print(doulist['Title'])
         current_num = 0
         try:
             movie_urls = doulist['MoviesUrl']
@@ -359,13 +375,117 @@ def crawl_doulists_from_PN():
         scratch_doulist(doulist)
         print('\n Total Progress: {:.2%}'.format((num) / len(doulists)))
 
+def crawl_all_YingZhi_doulists():
+    for i in range(11):
+        time.sleep(uniform(0.1, 0.2))
+        url = 'https://www.douban.com/people/tjz230/doulists/all?start=' + str(i * 20) + '&tag='
+        text = get_html_text(url)
+        print(text)
+        soup = BeautifulSoup(text, 'html.parser')
+        try:
+            for item in soup.find(name='ul', attrs={'class': 'doulist-list'}).contents:
+                _str = str(item)
+                # print(_str)
+                matched = re.findall(r'<a href="([\s\S]*?)">([\s\S]*?)</a>', _str)
+                if len(matched) > 0:
+                    scratch_doulist(matched[0][0])
+        except:
+            print(traceback.format_exc())
+
+
+def get_sorted_categories():
+    movies_info = get_movie_info_collection()
+    category_dict = dict()
+    category_list = list()
+    for item in movies_info.find():
+        genres = item['Genres']
+        for genre in genres:
+            if genre in category_dict:
+                category_dict[genre] = category_dict[genre] + 1
+            else:
+                category_dict.setdefault(genre, 1)
+    sorted_category_dict = sorted(category_dict.items(), key=lambda d: d[1], reverse=True)
+    print(len(category_dict))
+    print(category_list)
+
+def get_sorted_directors():
+    movies_info = get_movie_info_collection()
+    directors_dict = dict()
+    directors_list = list()
+    for item in movies_info.find():
+        directors = item['Directors']
+        for director in directors:
+            if director in directors_dict:
+                directors_dict[director] = directors_dict[director] + 1
+            else:
+                directors_dict.setdefault(director, 1)
+    sorted_director_dict = sorted(directors_dict.items(), key=lambda d: d[1], reverse=True)
+    i = 0
+    for (key, value) in sorted_director_dict:
+        if key != '' and i < 30:
+            directors_list.append(key)
+            i = i + 1
+    for (director, amount) in sorted_director_dict:
+        print(director, amount)
+    # print(len(directors_list))
+    # print(directors_list)
+
+def remove_invalid_cast():
+    movies_info = get_movie_info_collection()
+    directors_info = get_directors_info_collection()
+    starring_info = get_starring_info_collection()
+    for movie in movies_info.find({'ValidDirectors': {'$exists': False}}):
+        print(movie['Title'])
+        director_urls = movie['DirectorsUrls']
+        directors = movie['Directors']
+        starring_urls = movie['StarringUrls']
+        starring = movie['Starring']
+
+        directors_valid = list()
+        starring_valid = list()
+
+        for director in directors:
+            count = directors_info.count({'ShortName': director})
+            if count > 0:
+                directors_valid.append(director)
+        for star in starring:
+            count = starring_info.count({'ShortName': star})
+            if count > 0:
+                starring_valid.append(star)
+
+        movies_info.update_one(
+            {'_id': movie['_id']},
+            {'$set':
+                 {
+                     'ValidDirectors': directors_valid,
+                     'ValidStarring': starring_valid
+                 }
+            }
+        )
+        print('Progress: {:.2%}'.format(movies_info.count({'ValidDirectors': {'$exists': True}}) / movies_info.count()))
+
+def transport_traits():
+    backup = get_back_up_movie_info_collection()
+    movies = get_movie_info_collection()
+
+    for item in movies.find({'Traits': {'$exists': False}}):
+        backup_item = backup.find_one({'IMDB': item['IMDB']})
+        traits = backup_item['Traits']
+        title = item['Title']
+        movies.update_one(
+            {'IMDB': item['IMDB']},
+            {'$set': {'Traits': traits}}
+        )
+        print(title)
+        print('Progress: {:.2%}'.format(movies.count({'Traits': {'$exists': True}}) / movies.count()))
+
+def remove_abundant_items():
+    movies = get_movie_info_collection()
+
+    movies.update_many(
+        {'celeb_processed': {'$exists': True}},
+        {'$unset': {'celeb_processed': '', 'tagsAdded': '', 'genresAdded': ''}}
+    )
 
 if __name__ == '__main__':
-
-    # proceed()
-    print('Crawled progress: {:.2%}'.format(get_doulists_progress()))
-    # crawl_movie_info('https://movie.douban.com/subject/1851915/')
-    # print(get_login_redirect('https://movie.douban.com/subject/1306467/'))
-    # print(len(get_existed_doulist()))
-    # scratch_doulist('https://www.douban.com/doulist/1325338/')
-    # get_movie_summary('https://movie.douban.com/subject/27073234/')
+    transport_traits()

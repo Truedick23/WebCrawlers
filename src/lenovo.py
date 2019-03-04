@@ -216,10 +216,6 @@ def process(url):
     reg_list = ['<div class="good_item">([\s\S]*?)<div class="item_row item-row-last"']
     '''
 
-def download_pics():
-    lenovo = get_lenovo_info_collection()
-    for url in lenovo.distinct('MainPic'):
-
 
 if __name__ == '__main__':
     laptops = get_laptop_pages()

@@ -2,7 +2,6 @@ import socket
 import sys
 import os
 import struct
-
 def socket_client():
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -20,7 +19,6 @@ def socket_client():
                             os.stat(filepath).st_size)
         s.send(fhead)
         print('client filepath: {0}'.format(filepath))
-
         fp = open(filepath, 'rb')
         while 1:
             data = fp.read(3)
@@ -29,7 +27,5 @@ def socket_client():
                 break
             s.send(data)
     s.close()
-
-
 if __name__ == '__main__':
     socket_client()

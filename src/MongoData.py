@@ -1,12 +1,13 @@
 import pymongo
 from pymongo import MongoClient
 import re
+import json
 
 
 def get_movie_info_collection():
     client = MongoClient()
     db = client.movie_recommender
-    movie_info = db.movies_info
+    movie_info = db.movies
     return movie_info
 
 
@@ -141,8 +142,87 @@ def celebrity_search_field(field_name, _item, fuzzy, as_array):
     print('\nTotal:', num, 'celebrities.')
 
 
+def get_sizes():
+    title_length = 0
+    max_title = str()
+    summary_length = 0
+    max_summary = str()
+    url_length = 0
+    nation_length = 0
+    celeb_length = 0
+    genre_tag_length = 0
+    celebrity_info = get_celeb_info_collection()
+    for item in get_movie_info_collection().find():
+        title = item['Title']
+        summary = item['Summary']
+        url = item['Url']
+        if len(title) > title_length:
+            title_length = len(title)
+            max_title = title
+        if len(summary) > summary_length:
+            summary_length = len(summary)
+            max_summary = summary
+        if len(url) > url_length:
+            url_length = len(url)
+        for nation in item['Nation']:
+            if len(nation) > nation_length:
+                nation_length = len(nation)
+        for genre in item['Genres']:
+            if len(genre) > genre_tag_length:
+                genre_tag_length = len(genre)
+        for tag in item['Tags']:
+            if len(tag) > genre_tag_length:
+                genre_tag_length = len(tag)
+        for director in item['Directors']:
+            if len(director) > celeb_length:
+                celeb_length = len(director)
+        for star in item['Starring']:
+            if len(star) > celeb_length:
+                celeb_length = len(star)
+
+    print(title_length, summary_length, url_length, nation_length, genre_tag_length, celeb_length)
+    print(max_title)
+    print(max_summary)
+
+
+def get_celebrity_times():
+    movie_info = get_movie_info_collection()
+    director_dict = dict()
+    star_dict = dict()
+    for item in movie_info.find():
+        directors = item['Directors']
+        starring = item['Starring']
+        for director in directors:
+            if director in director_dict:
+                director_dict[director] = director_dict[director] + 1
+            else:
+                director_dict.setdefault(director, 1)
+        for star in starring:
+            if star in star_dict:
+                star_dict[star] = star_dict[star] + 1
+            else:
+                star_dict.setdefault(star, 1)
+
+    director_dict = sorted(director_dict.items(), key=lambda d: d[1], reverse=True)
+    fiveplus_directors = dict()
+    for item, key in director_dict:
+        if key > 3:
+            fiveplus_directors[item] = key
+
+    star_dict = sorted(star_dict.items(), key=lambda d: d[1], reverse=True)
+    fiveplus_actors = dict()
+    for item, key in star_dict:
+        if key > 5:
+            fiveplus_actors[item] = key
+    #print(json.dumps(director_dict, indent=3, ensure_ascii=False))
+    #print(len(director_dict), len(fiveplus_directors))
+    print(json.dumps(star_dict, indent=3, ensure_ascii=False))
+    print(len(fiveplus_directors), len(fiveplus_actors))
+
 
 if __name__ == '__main__':
-    celebrity_search_field(field_name='Name', _item='昆汀', fuzzy=True, as_array=False)
+    # celebrity_search_field(field_name='Name', _item='昆汀', fuzzy=True, as_array=False)
     # search_field(field_name='Directors', _item='费里尼', fuzzy=True, as_array=True)
     # search_numeric_data(field_name='Rating', _value=9.1, choice='larger')
+    # get_sizes()
+    get_celebrity_times()

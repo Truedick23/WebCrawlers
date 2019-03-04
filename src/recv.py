@@ -26,15 +26,15 @@ def deal_data(conn, addr):
                     data1 = conn.recv(1)
                     data2 = conn.recv(1)
                     data3 = conn.recv(1)
+                    dataset = [data1, data2, data3]
+                    # for data in dataset:
+                    #     if data == '\'
                     print(data1, data2, data3)
+
                     d1 = int.from_bytes(data1, byteorder='little')
                     d2 = int.from_bytes(data2, byteorder='little')
                     d3 = int.from_bytes(data3, byteorder='little')
 
-                    if data1 == bytes(40) or data2 == bytes(40) or data3 == bytes(40):
-                        print('End of file!', num)
-                        print(data1, data2, data3)
-                        num = num + 1
                     d21 = d2 % 16
                     d22 = d2 / 16
 
